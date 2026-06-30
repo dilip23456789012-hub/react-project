@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>College Management System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+        }
+
+        header {
+            background-color: #1e3a8a;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            width: 80%;
+            margin: 30px auto;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 5px gray;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+        }
+
+        button {
+            background-color: #1e3a8a;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid gray;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>College Management System</h1>
+    </header>
+
+    <div class="container">
+
+        <div class="card">
+            <h2>Add Student</h2>
+
+            <form>
+                <input type="text" placeholder="Student Name" required>
+
+                <input type="text" placeholder="Course" required>
+
+                <input type="number" placeholder="Roll Number" required>
+
+                <button type="submit">Add Student</button>
+            </form>
+        </div>
+
+        <div class="card">
+            <h2>Student List</h2>
+
+            <table>
+                <tr>
+                    <th>Roll No</th>
+                    <th>Name</th>
+                    <th>Course</th>
+                </tr>
+
+                <tr>
+                    <td>101</td>
+                    <td>Rahul Sharma</td>
+                    <td>BCA</td>
+                </tr>
+
+                <tr>
+                    <td>102</td>
+                    <td>Priya Singh</td>
+                    <td>B.Tech</td>
+                </tr>
+
+                <tr>
+                    <td>103</td>
+                    <td>Aman Verma</td>
+                    <td>BBA</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="card">
+            <h2>Teacher Information</h2>
+
+            <table>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Subject</th>
+                </tr>
+
+                <tr>
+                    <td>T01</td>
+                    <td>Dr. Mehta</td>
+                    <td>Mathematics</td>
+                </tr>
+
+                <tr>
+                    <td>T02</td>
+                    <td>Mrs. Gupta</td>
+                    <td>Computer Science</td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+
+</body>
+</html>
